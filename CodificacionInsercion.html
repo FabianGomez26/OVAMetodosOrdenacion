@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head runat="server">
+      <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>OVA</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logoU.png">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./plugins/highlightjs/styles/darkula.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+        
+            <!--*******************
+       precargado 
+    ********************-->
+            <div id="preloader">
+                <div class="loader">
+                    <svg class="circular" viewBox="25 25 50 50">
+                        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+                    </svg>
+                </div>
+            </div>
+            <!--*******************
+        fin de precrhado
+    ********************-->
+
+
+            <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+                <!--**********************************
+            Header start
+        ***********************************-->
+                <div class="header" >
+                   
+                        <div class="header-left">
+                                
+                              <h2   style="color:#ffffff" align="center">Metodos de ordenacion en </h2>
+                              <h2  style="color:#ffffff" ali1gn="center">Programacion orientada a objetos</h2>
+                        </div>
+                        <div class="header-right">
+                                     <div class="card">
+                                    <img src="images/logoUNAD.png" alt="">
+                                    </div>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+
+                 
+                <!--**********************************
+            Sidebar inicio
+        ***********************************-->
+                  <div class="nk-sidebar">           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label">Panel Principal</li>
+
+                            <li class="mega-menu mega-menu-sm">
+                                 <a href="./Principal.html" aria-expanded="false">
+                                    <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Introdución</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <i class="icon-grid menu-icon"></i><span class="nav-text">Método Burbuja</span>
+                                </a>
+                                <ul aria-expanded="false">
+                                    <li><a href="./RendimientoBurbuja.html">Rendimiento</a></li>
+                                    <li><a href="./CodificacionBurbuja.html">Codificacion</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <i class="icon-grid menu-icon"></i><span class="nav-text">Método Inserción</span>
+                                </a>
+                                <ul aria-expanded="false">
+                                    <li><a href="./RendimientoInsercion.html">Rendimiento</a></li>
+                                    <li><a href="./CodificacionInsercion.html">Codificacion</a></li>
+                                    
+                                </ul>
+                            </li>
+                           <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <i class="icon-grid menu-icon"></i><span class="nav-text">Método Selección</span>
+                                </a>
+                                <ul aria-expanded="false">
+                                    <li><a href="./RendimientoSeleccion.html">Rendimiento</a></li>
+                                    <li><a href="./CodificacionSeleccion.html">Codificacion</a></li>
+                                    
+                                </ul>
+                            </li>
+                    </div>
+                </div>
+                <!--**********************************
+            menu fin
+        ***********************************-->
+         <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <div class="row page-titles mx-0">
+                <div class="col p-md-0">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)"></a></li>
+                        <li class="breadcrumb-item active"><a href="javascript:void(0)"></a></li>
+                    </ol>
+                </div>
+            </div>
+            <!-- row -->
+
+            <div class="container-fluid">
+                <!-- row -->
+              <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 align="center" class="card-title">Pseudocódigo</h4>
+                                
+<pre>
+    <code class="javascript">
+           1. PROCEDIMIENTO Insertion_sort ( Vector a[1:n])
+           2. PARA i VARIANDO DE 2 HASTA n HACER
+           3. INSERTAR a[i] EN SU LUGAR EN a[1:i-1];
+           4.FIN PROCEDIMIENTO;
+    </code>
+</pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+    <div class="container-fluid">
+                <!-- row -->
+              <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                 <h4 align="center" class="card-title">Python</h4>
+                                
+<pre>
+    <code class="javascript">
+            1.def Insertion_sort(Vector):
+            2. for i in range(1,len(Vector)):
+            3. actual = Vector[i]
+            4. j = i
+            5. #Desplazamiento de los elementos de la matriz
+            }
+            6. while j>0 and Vector[j-1]>actual:
+            7. Vector[j]=Vector[j-1]
+            8. j = j-1
+            9. #insertar el elemento en su lugar
+            10. Vector[j]=actual
+    </code>
+</pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    <div class="container-fluid">
+                <!-- row -->
+              <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                               <h4 align="center" class="card-title">C</h4>
+<pre>
+    <code class="javascript">
+            1.void Insertion_sort(int* t)
+            2.{
+            3. int i, j;
+            4. int actual;
+            5.
+            6. for (i = 1; i < 20; i++) {
+            7. actual = t[i];
+            8. for (j = i; j > 0 && t[j - 1] > actual; j--
+            ) {
+            9. t[j] = t[j - 1];
+            10. }
+            11. t[j] = actual;
+            12. }
+            13. }
+
+
+    </code>
+</pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- #/ container -->
+
+                <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card" style="background:#000000">
+                           
+                            <div class="card-body">
+                                  <img class="img-fluid" src="images/11.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+      <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy;<a>Fabián Gómez</a> 2020</p>
+
+            </div>
+            <div class="text-center">
+                                    <p>Redes sociales de la UNAD</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="https://twitter.com/UniversidadUNAD?s=20" class="btn btn-twitter"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                    </ul>
+         </div>
+
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+      <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+    <script src="./plugins/highlightjs/highlight.pack.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+
+    <script>
+            (function($) {
+            "use strict"
+    
+                new quixSettings({
+                    version: "light", //2 options "light" and "dark"
+                    layout: "vertical", //2 options, "vertical" and "horizontal"
+                    navheaderBg: "color_1", //have 10 options, "color_1" to "color_10"
+                    headerBg: "color_1", //have 10 options, "color_1" to "color_10"
+                    sidebarStyle: "full", //defines how sidebar should look like, options are: "full", "compact", "mini" and "overlay". If layout is "horizontal", sidebarStyle won't take "overlay" argument anymore, this will turn into "full" automatically!
+                    sidebarBg: "color_1", //have 10 options, "color_1" to "color_10"
+                    sidebarPosition: "static", //have two options, "static" and "fixed"
+                    headerPosition: "fixed", //have two options, "static" and "fixed"
+                    containerLayout: "wide",  //"boxed" and  "wide". If layout "vertical" and containerLayout "boxed", sidebarStyle will automatically turn into "overlay".
+                    direction: "ltr" //"ltr" = Left to Right; "rtl" = Right to Left
+                });
+    
+    
+            })(jQuery);
+        </script>
+
+
+</body>
+</html>

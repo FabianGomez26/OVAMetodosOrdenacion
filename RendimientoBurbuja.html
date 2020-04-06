@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head runat="server">
+      <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>OVA</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logoU.png">
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+        
+            <!--*******************
+       precargado 
+    ********************-->
+            <div id="preloader">
+                <div class="loader">
+                    <svg class="circular" viewBox="25 25 50 50">
+                        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+                    </svg>
+                </div>
+            </div>
+            <!--*******************
+        fin de precrhado
+    ********************-->
+
+
+            <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+                <!--**********************************
+            Header start
+        ***********************************-->
+                <div class="header" >
+                   
+                        <div class="header-left">
+                              <h2   style="color:#ffffff" align="center">Métodos de ordenación en </h2>
+                              <h2  style="color:#ffffff" ali1gn="center">Programación orientada a objetos</h2>
+                        </div>
+                        <div class="header-right">
+                                     <div class="card">
+                                    <img src="images/logoUNAD.png" alt="">
+                                    </div>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+
+                 <!--**********************************
+            Sidebar inicio
+        ***********************************-->
+                  <div class="nk-sidebar">           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label">Panel Principal</li>
+
+                            <li class="mega-menu mega-menu-sm">
+                                 <a href="./Principal.html" aria-expanded="false">
+                                    <i class="icon-globe-alt menu-icon"></i><span class="nav-text">Introdución</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <i class="icon-grid menu-icon"></i><span class="nav-text">Método Burbuja</span>
+                                </a>
+                                <ul aria-expanded="false">
+                                    <li><a href="./RendimientoBurbuja.html">Rendimiento</a></li>
+                                    <li><a href="./CodificacionBurbuja.html">Codificacion</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <i class="icon-grid menu-icon"></i><span class="nav-text">Método Inserción</span>
+                                </a>
+                                <ul aria-expanded="false">
+                                    <li><a href="./RendimientoInsercion.html">Rendimiento</a></li>
+                                    <li><a href="./CodificacionInsercion.html">Codificacion</a></li>
+                                    
+                                </ul>
+                            </li>
+                           <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <i class="icon-grid menu-icon"></i><span class="nav-text">Método Selección</span>
+                                </a>
+                                <ul aria-expanded="false">
+                                    <li><a href="./RendimientoSeleccion.html">Rendimiento</a></li>
+                                    <li><a href="./CodificacionSeleccion.html">Codificacion</a></li>
+                                    
+                                </ul>
+                            </li>
+                    </div>
+                </div>
+                <!--**********************************
+            menu fin
+        ***********************************-->
+       <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <div class="row page-titles mx-0">
+                <div class="col p-md-0">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)"></a></li>
+                        <li class="breadcrumb-item active"><a href="javascript:void(0)"></a></li>
+                    </ol>
+                </div>
+            </div>
+             <div class="container-fluid">
+                <!-- row -->
+              <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                               <h4 align="center" class="card-title">Presentación</h4>
+                               <p class="card-text">La Ordenación de burbuja funciona revisando cada elemento de la lista que va a ser
+                                        ordenada con el siguiente, intercambiándolos de posición si están en el orden equivocado.
+                                        Es necesario revisar varias veces toda la lista hasta que no se necesiten más intercambios,
+                                        lo cual significa que la lista está ordenada.</p>
+                                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</div>
+
+            <!-- row -->
+
+            <div class="container-fluid">
+                <!-- row -->
+              <div class="row">
+                    <div class="col">
+                       <div class="card">
+                                    <img class="img-fluid" src="images/FaB.jpg" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Rendimiento del algoritmo optimo </h5>
+                                        <p class="card-text">En el caso óptimo, con los datos ya ordenados, el algoritmo sólo effectura n comparaciones.Por lo tanto, la complejidad en el caso óptimo es en Θ(n).</p>
+                                        </p>
+                                    </div>
+                                </div>
+                </div>
+
+            </div>
+</div>
+    <div class="container-fluid">
+                <!-- row -->
+              <div class="row">
+                    <div class="col">
+                       <div class="card">
+                                    <img class="img-fluid" src="images/DeB.jpg" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Rendimiento del algoritmo desfavorable </h5>
+                                        <p class="card-text">En el caso desfavorable, con los datos ordenados a la inversa, la complejidad es en Θ(n2).</p>
+                                        </p>
+                                    </div>
+                                </div>
+                </div>
+
+            </div>
+   </div>
+
+            <!-- #/ container -->
+
+                <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card" style="background:#000000">
+                           
+                            <div class="card-body">
+                                  <img class="img-fluid" src="images/11.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy;<a>Fabián Gómez</a> 2020</p>
+
+            </div>
+            <div class="text-center">
+                                    <p>Redes sociales de la UNAD</p>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a href="https://twitter.com/UniversidadUNAD?s=20" class="btn btn-twitter"><i class="fa fa-twitter"></i></a>
+                                        </li>
+                                    </ul>
+         </div>
+
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+
+</body>
+</html>
